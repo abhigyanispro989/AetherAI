@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+<head><link rel="icon" type="image/png" sizes="256x256" href="assets/aethertech-favicon.png"><link rel="apple-touch-icon" href="assets/aethertech-favicon.png">
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#080b14"><meta name="description" content="Ask Learnova a question and shape a learning path around your curiosity.">
+  <title>Learnova — Where should we begin?</title>
+  <link rel="stylesheet" href="style.css"><link rel="stylesheet" href="visual-refresh.css"><link rel="stylesheet" href="dark-theme.css"><link rel="stylesheet" href="learnova-chat.css">
+</head>
+<body class="learnova-chat-page">
+  <div class="learnova-app">
+    <aside class="learnova-sidebar" id="learnova-sidebar">
+      <a class="learnova-brand" href="index.html"><span class="learnova-mark">L</span><span>Learnova<small>BY AETHERAI</small></span></a>
+      <button class="new-chat" id="new-chat"><span>＋</span> New chat</button>
+      <div class="sidebar-group"><span class="sidebar-label">Explore</span>
+        <button class="sidebar-item" data-prompt="Help me understand a new topic"><span>✳</span> Learn something new</button>
+        <button class="sidebar-item" data-prompt="Help me plan a robotics project"><span>⌘</span> Plan a project</button>
+        <button class="sidebar-item" data-prompt="Explain a difficult idea in simple terms"><span>◌</span> Make an idea clearer</button>
+      </div>
+      <div class="sidebar-group"><span class="sidebar-label">Try asking</span>
+        <button class="sidebar-item sample-question" data-prompt="How do solar panels turn sunlight into electricity?">How do solar panels work?</button>
+        <button class="sidebar-item sample-question" data-prompt="What is a microcontroller and where would I use one?">What is a microcontroller?</button>
+        <button class="sidebar-item sample-question" data-prompt="How can I start learning about artificial intelligence?">Where do I start with AI?</button>
+      </div>
+      <div class="sidebar-spacer"></div>
+      <a class="back-ai" href="index.html">← <span>Back to AetherAI</span></a>
+    </aside>
+    <main class="learnova-main">
+      <header class="learnova-topbar"><button class="sidebar-toggle" id="sidebar-toggle" aria-label="Toggle sidebar">☰</button><span class="topbar-title">Learnova</span><a class="topbar-aether" href="index.html">AetherAI <b>↗</b></a></header>
+      <section class="conversation" id="conversation">
+        <div class="welcome" id="welcome"><div class="welcome-orb"><span>L</span><i></i></div><h1>Where should we begin?</h1><p>Ask a question, explore an idea, or start learning something new.</p>
+          <div class="suggestion-grid"><button data-prompt="Explain how a computer thinks, in simple terms."><span>✳</span><b>Explain an idea</b><small>Make a complex topic approachable</small></button><button data-prompt="Help me make a plan to learn robotics from scratch."><span>⌘</span><b>Build a learning plan</b><small>Go from first steps to a project</small></button><button data-prompt="Give me a small project to practice Arduino basics."><span>◌</span><b>Practice a skill</b><small>Learn by making something</small></button></div>
+        </div>
+        <div class="lesson-output" id="lesson-output" aria-live="polite" hidden></div>
+      </section>
+      <div class="composer-wrap"><form class="lesson-form chat-composer" id="lesson-form"><label class="sr-only" for="topic">Ask Learnova anything</label><input id="topic" name="topic" placeholder="Ask Learnova anything…" autocomplete="off" required><select id="level" aria-label="Choose your starting level"><option value="new">Beginner</option><option value="some">Intermediate</option><option value="deep">Advanced</option></select><button class="send-question" type="submit" aria-label="Send question">↑</button></form><div class="composer-hint">Learnova helps turn questions into clear next steps.</div></div>
+      <footer class="learnova-foot"><span>Learnova can help you explore almost any topic.</span><span><a href="index.html">About Learnova</a></span><a class="parent-brand" href="https://aethertech.aether-dev.workers.dev/" aria-label="AetherTech main website"><img src="assets/aethertech-logo.png" alt="AetherTech"></a></footer>
+    </main>
+  </div>
+  <script src="learnova.js"></script><script src="learnova-chat.js"></script>
+</body>
+</html>
+
+
