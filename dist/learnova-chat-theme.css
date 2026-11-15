@@ -1,0 +1,25 @@
+Warning: fs was declared with const; use let for reassignable variables.
+body.learnova-chat-page[data-app-theme="light"]{color-scheme:light;background:#f5f7fb;color:#1a2638}
+body.learnova-chat-page[data-app-theme="light"] .learnova-app{background:#f5f7fb}
+body.learnova-chat-page[data-app-theme="light"] .learnova-sidebar{background:#fff;border-color:#dce3eb}
+body.learnova-chat-page[data-app-theme="light"] .learnova-brand,body.learnova-chat-page[data-app-theme="light"] .sidebar-account{color:#1d2a3d}
+body.learnova-chat-page[data-app-theme="light"] .learnova-brand small,body.learnova-chat-page[data-app-theme="light"] .sidebar-label,body.learnova-chat-page[data-app-theme="light"] .sidebar-account small{color:#788496}
+body.learnova-chat-page[data-app-theme="light"] .new-chat{background:#f5f7fb;border-color:#d7dee8;color:#24344b}
+body.learnova-chat-page[data-app-theme="light"] .new-chat:hover,body.learnova-chat-page[data-app-theme="light"] .sidebar-item:hover{background:#edf2f8;border-color:#d0d9e5}
+body.learnova-chat-page[data-app-theme="light"] .sidebar-item{color:#39495e}
+body.learnova-chat-page[data-app-theme="light"] .sample-question{color:#52647b}
+body.learnova-chat-page[data-app-theme="light"] .back-ai{color:#5c6a7f}
+body.learnova-chat-page[data-app-theme="light"] .sidebar-account{border-color:#e1e6ed}
+body.learnova-chat-page[data-app-theme="light"] .learnova-main{background:radial-gradient(ellipse at 50% 32%,rgba(214,227,251,.35),transparent 45%),#f7f9fc}
+body.learnova-chat-page[data-app-theme="light"] .learnova-topbar{color:#26364b}
+body.learnova-chat-page[data-app-theme="light"] .topbar-aether{color:#31536b}
+body.learnova-chat-page[data-app-theme="light"] .welcome-title,body.learnova-chat-page[data-app-theme="light"] .lesson-output{color:#1c293d}
+body.learnova-chat-page[data-app-theme="light"] .welcome-subtitle,body.learnova-chat-page[data-app-theme="light"] .composer-hint,body.learnova-chat-page[data-app-theme="light"] .learnova-foot{color:#758196}
+body.learnova-chat-page[data-app-theme="light"] .chat-composer{background:#fff;border-color:#d8e0ea;box-shadow:0 12px 36px rgba(39,58,84,.1)}
+body.learnova-chat-page[data-app-theme="light"] .chat-composer input{color:#1b2a3f}
+body.learnova-chat-page[data-app-theme="light"] .chat-composer input::placeholder{color:#909aab}
+body.learnova-chat-page[data-app-theme="light"] .chat-composer select{background:#f7f9fc;border-color:#e0e6ee;color:#56657a}
+body.learnova-chat-page[data-app-theme="light"] .chat-user-message{background:#eaf1fb;border-color:#dce5f0;color:#25354b}
+body.learnova-chat-page[data-app-theme="light"] .answer-content p,body.learnova-chat-page[data-app-theme="light"] .answer-content li{color:#43536a}
+body.learnova-chat-page[data-app-theme="light"] .learnova-foot a{color:#52677f}
+body.learnova-chat-page[data-app-theme="light"] .lesson-output{scrollbar-color:#b8c4d2 transparent}
